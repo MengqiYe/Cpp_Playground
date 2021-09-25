@@ -4,3 +4,7 @@ project(Cpp_Playground)
 set(CMAKE_CXX_STANDARD 23)
 
 add_subdirectory(10.4_Iterators)
+add_subdirectory(err.double_free)
+add_subdirectory(omp.exercise)
+add_subdirectory(omp.parallel)
+add_subdirectory(printable)
