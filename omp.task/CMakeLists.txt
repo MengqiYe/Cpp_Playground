@@ -7,6 +7,4 @@ if(OPENMP_FOUND)
 endif()
 include_directories(SYSTEM ${OpenMP_INCLUDE_PATH})
 
-add_executable(omp.parallel parallel.cpp)
-add_executable(omp.for      for.cpp)
-add_executable(omp.for.vec  vec.cpp)
+add_executable(omp.task.fib task.fib.cpp)

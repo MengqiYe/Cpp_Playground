@@ -8,7 +8,7 @@ int main()
 {
     int i = 0, N = 10;
 #pragma omp parallel
-#pragma omp for
+#pragma omp for schedule(dynamic, 1)
     for (i=0; i<N; i++) {
         printf("For : %d / %d\n", i, N);
     }
