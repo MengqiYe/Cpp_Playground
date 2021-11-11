@@ -1,5 +1,5 @@
 //
-// Created by Administrator on 2021/11/10.
+// Created by elsey on 2021/11/10.
 //
 #include <omp.h>
 #include <cstdio>
