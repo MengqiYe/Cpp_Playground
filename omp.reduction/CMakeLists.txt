@@ -13,3 +13,4 @@ add_executable(omp.reduction.sum sum.cpp)
 add_executable(omp.reduction.custom_cls custom_cls.cpp)
 
 add_executable(omp.reduction.stdvec stdvec.cpp)
+add_executable(omp.reduction.bug bug.c)
