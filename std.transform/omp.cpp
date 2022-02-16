@@ -14,6 +14,13 @@ public:
     int z;
 };
 
+Dat::Dat(){
+    x = 1;
+    y = 2;
+    z = 3;
+}
+
+
 void write_to_cout(std::vector<Dat> &in) {
     for (int i = 0; i < in.size(); ++i) {
         std::cout << in[i].x << ":" << in[i].y << ":" << in[i].z << ", ";
