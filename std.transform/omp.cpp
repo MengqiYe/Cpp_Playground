@@ -41,7 +41,13 @@ int main() {
     // Test algorithm
     std::transform(
             a.begin(), a.end(), b.begin(), std::back_inserter(c),
-            [](Dat a, Dat b) { return Dat(); }
+            [](Dat a, Dat b) {
+                Dat d;
+                d.x = a.x + b.y;
+                d.y = a.y + b.z;
+                d.z = a.z + b.x;
+                return d;
+            }
     );
 
     write_to_cout(c);
