@@ -11,3 +11,5 @@ add_subdirectory(omp.reduction)
 add_subdirectory(omp.task)
 
 add_subdirectory(printable)
+
+add_subdirectory(std.transform)
