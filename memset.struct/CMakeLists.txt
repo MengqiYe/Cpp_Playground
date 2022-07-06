@@ -1,0 +1,1 @@
+add_executable(memset.struct memset.cpp)
