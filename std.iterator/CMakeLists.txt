@@ -1,0 +1,5 @@
+add_executable(std.iterator iter.cpp)
+add_executable(std.iterbug  iterbug.cpp)
+add_executable(stl.list1old list1old.cpp)
+add_executable(stl.list2old list2old.cpp)
+add_executable(stl.list3old list3old.cpp)
